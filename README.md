@@ -53,61 +53,67 @@ The app uses the following API to fetch beer data:
 ├── README.md                     # Project documentation
 ├── tailwind.config.js            # Tailwind CSS configuration
 └── webpack.config.js             # Webpack configuration
+```
 Setup Instructions
 Prerequisites
 Ensure you have the following installed on your system:
 
+
 Node.js (version 14.x or higher)
+```
 npm or yarn (for managing dependencies)
+```
 Installation
 Clone the repository:
 
 bash
 
+```
 git clone https://github.com/your-repo/craft-beer-emporium.git
 cd craft-beer-emporium
+```
 Install dependencies:
 
 bash
-
+```
 npm install
 # or
 yarn install
+```
 Start the development server:
 
 bash
 
+```
 npm start
 # or
 yarn start
+```
 Build the app for production:
 
 bash
-
+```
 npm run build
 # or
 yarn build
+```
 Run tests:
 
 bash
-
+```
 npm test
 # or
 yarn test
+```
 Running the Project
 After starting the development server, open http://localhost:3000 in your browser. You should see the Craft Beer Emporium app running with the beer catalog displayed.
 
-Testing
-At least one component includes unit tests using React Testing Library. Run the tests with the following command:
 
-bash
-
-npm test
-# or
-yarn test
 Future Improvements
+Testing: At least one component includes unit tests using React Testing Library. Run the tests with the following command:
 Responsive Design: Improve responsiveness for mobile and tablet views.
 Animation & Transitions: Add more transitions and animations for beer grid and filter updates.
 Internationalization (i18n): Enable the app to support multiple languages.
+
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
